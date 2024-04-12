@@ -43,8 +43,8 @@ Average Recall (AR) @[ IoU=0.50] = 0.57 with the maximum number of detections pe
 Training for 12 epochs, Train Loss of 1.250 was obtained <br/>
 Time of computation - 2139.4s  <br/>
 
-# Kaggle Competition Submission:
-Earned an evaluation score of 0.277 in the competition while the best score in the competition was 0.356 <br/>
+## Kaggle Competition Submission:
+**Earned an evaluation score of 0.277 in the competition while the best score in the competition was 0.356** <br/>
 
 ## CellSAM model:
 
