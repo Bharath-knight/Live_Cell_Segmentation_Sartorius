@@ -11,7 +11,7 @@ As the LIVECell dataset is the predecessor of the competition dataset, they are 
 
 The images were of the dimensions 704 X 520, and I  normalized them as it's important to standardize pixel values in images. Pre-calculated mean and standard deviation values with ResNet-specific normalization were applied where mean pixel values were subtracted from each channel and each channel was divided by its standard deviation. <br/>
 
-I utilized Run-Length encoded (RLE) compression for storage efficiency in dealing with masks where I compressed binary masks by storing consecutive sequences of identical values. I further converted the RLE mask string to NumPy arrays to load into the model.<br/><br/>
+I utilized Run-Length encoded (RLE) compression for storage efficiency in dealing with masks where I compressed binary masks by storing consecutive sequences of identical values. I further converted the RLE mask string to NumPy arrays to load into the model.<br/>
 
 The augmentation steps that I used were, Normalizing the images, and flipping the images horizontally and vertically, using functions VerticalFlip and HorizontalFlip for now. <br/><br/>
 
