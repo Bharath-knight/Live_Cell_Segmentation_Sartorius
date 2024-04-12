@@ -3,7 +3,7 @@ In this study, we explore the performance of three deep learning models, UNet, M
 
 # Introduction:
 The LiveCELL dataset used in this work is a large collection of over 150,000 microscopy images containing neuronal cells. The LiveCELL dataset is part of the Sartorius - Cell Instance Segmentation Kaggle Competition hosted by a life science company, Sartorius. This competition mainly focuses on cell instance segmentation within microscopy images. This Challenge conducted in 2021 aims to advance cell segmentation techniques in biomedical research. 
-LIVECell is the predecessor dataset to this competition. It is a high-quality, manually annotated, and expert-validated dataset with 1.6 million annotations of 8 different cell types. LIVECell dataset is provided in JSON format but it is converted to a CSV file for convenience. 
+LIVECell is the predecessor dataset to this competition. It is a high-quality, manually annotated, and expert-validated dataset with 1.6 million annotations of 8 different cell types.< br / > LIVECell dataset is provided in JSON format but it is converted to a CSV file for convenience. 
 There are 5239 images and 1662447 annotations in the LIVECell dataset. The average annotations per image is 317.32 which is much higher than the average annotations per image in the competition dataset since the cell cultures are more confluent in LIVECell dataset.
 As the LIVECell dataset is the predecessor of the competition dataset, they are very similar. Images have a width of 704 and a height of 520 pixels in both datasets and they are probably taken from the same source
 
